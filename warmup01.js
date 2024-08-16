@@ -12,6 +12,20 @@
  * @return {Array}
  */
 let findAll = function (array, n) {
+    let result =[]
+    if(array.includes(n)){
+        for (let i=0;i<=array.length;i++){
+          if(array[i]===n) result.unshift(i)
+
+    
+
+    return new
+}
+}
+  else{
+    return new 
+  }
+
   
 };
 
@@ -24,8 +38,18 @@ let findAll = function (array, n) {
 // Note : you can`t use any built-in functions .
 
 let reverseWord=(string) => {
+        let reversed = "";
+        let k = string.length - 1;
+      
+        while (k >= 0) {
+          reversed += string[i];
+          k--;
+        }
+      
+        return reversed;
+      }
 
-}
+
 
 
 /**
@@ -37,6 +61,14 @@ let reverseWord=(string) => {
  */
 
 let sameLength=(array) => {
+    let result=[]
+    for(let i=0;i<=array.length;i++){
+        if(array[i].length===array[i+1].length){
+            result .unshift(array[i])
+        }
+        return result
+
+    }
 
 }
 
